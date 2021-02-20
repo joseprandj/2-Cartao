@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;} 
+
+#fundo{
+    background-image: url(./imagens/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 200px;}
+
+p{
+    padding: 5px;
+    font-family: 'Cookie', cursive;
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-align: left;
+    text-shadow: 2px 2px 5px blue;}
+
+ul{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    list-style-position: inside;
+    text-shadow: 1px 1px 5px blue;
+    margin-left: 10px;}
+
+#Instagram{
+    list-style-image: url(./imagens/Insta.png);}
+
+#Twitter{
+    list-style-image: url(./imagens/Twitter.png);}
+
+#Youtube{
+    list-style-image: url(./imagens/Youtube.png);}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: grab;}
+
+a :active{
+    cursor: grabbing;
+    color: green;}
+
+a :hover{
+    color: red;}
+
+body{
+    background-color: black;}
